@@ -66,7 +66,7 @@ export default function Page() {
 
   return (
     <div className="flex flex-col">
-      <div className="w-full grid grid-cols-8 border-b h-60 md:h-80 lg:h-96 2xl:h-[28rem]">
+      <div className="w-full grid grid-cols-8 border-b h-40 sm:h-56 md:h-72 lg:h-96 2xl:h-[28rem]">
         <div className="col-span-5 xl:col-span-6 flex flex-col xl:flex-row justify-evenly h-full w-full">
           <div className="flex justify-center items-center border-b xl:border-b-0 xl:border-r h-1/2 xl:h-full xl:w-1/2">
             <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl uppercase text-shadow-custom font-bold">
@@ -88,7 +88,7 @@ export default function Page() {
             fill={true}
             style={{ objectFit: "cover" }}
             placeholder="blur"
-            className="p-10"
+            className="p-3 md:p-6 lg:p-10"
           />
         </div>
       </div>
@@ -141,8 +141,8 @@ export default function Page() {
                     )}
                   </h5>
                   <h2 className="">{job.title}</h2>
-                  <h3 className="text-xs text-[#5f5f5f]">{job.location}</h3>
-                  <h3 className="text-xs text-[#5f5f5f] uppercase">
+                  <h3 className="text-xs text-grey">{job.location}</h3>
+                  <h3 className="text-xs text-grey uppercase">
                     {job.duration}
                   </h3>
                 </div>

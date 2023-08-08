@@ -13,11 +13,11 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="sticky bg-[#080808] top-0 z-10 box-border text-sm">
+      <nav className="sticky bg-black top-0 z-10 box-border text-sm">
         <div className="flex flex-col sm:flex-row justify-between sm:items-center border-b">
           <div className="p-3 sm:p-6 border-b sm:border-r sm:border-b-0 text-center ">
             <Link href="/">
-              <h5 className="font-medium md:font-bold uppercase text-[#CCCFCA] mix-blend-difference">
+              <h5 className="font-bold uppercase text-white mix-blend-difference">
                 Yusong Shi
               </h5>
             </Link>
@@ -30,9 +30,9 @@ export default function Nav() {
                 <Link
                   className={`${
                     isActive
-                      ? "line-through decoration-[2px] decoration-[#CCCFCA]"
+                      ? "line-through decoration-[2px] decoration-white"
                       : ""
-                  } hover:line-through hover:decoration-[2px] decoration-[#CCCFCA]`}
+                  } hover:line-through hover:decoration-[2px] decoration-white`}
                   href={link.url}
                   key={link.label}
                 >

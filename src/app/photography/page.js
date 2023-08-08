@@ -63,16 +63,15 @@ export default function Photography() {
                 style={{ objectFit: "contain" }}
                 className="p-10"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className="text-white font-semibold text-center uppercase">
-                  Summer for the city
-                </p>
-              </div>
+              <Link href="/photography/lincoln-center">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300">
+                  <p className="text-white font-semibold text-center uppercase">
+                    Summer for the city
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="col-span-1 border-b md:border-r lg:border-r-0 h-[30rem] flex flex-col justify-between">
