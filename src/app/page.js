@@ -3,9 +3,9 @@ import { useState } from "react";
 import profile from "./images/crypto.jpg";
 import basket from "./images/NBA 75.gif";
 import codr from "./images/Codr..png";
-import lushful from "./images/Lushful.png";
-import myportfolio from "./images/Yusong.png";
-import cascade from "./images/Cascade.png";
+import lushful from "./images/lushful-asset.jpg";
+import myportfolio from "./images/myportfolio.jpg";
+import cascade from "./images/Cascade.jpg";
 import Image from "next/image";
 import kura from "./images/Kura-Main-Final.jpg";
 import bike from "./images/Bike-NYC-bg.jpg";
@@ -84,8 +84,8 @@ export default function Home() {
                   <div className="container flex flex-col gap-4">
                     <h5 className="text-sm font-semibold uppercase">role</h5>
                     <div>
+                      <p className="text-sm">Developer</p>
                       <p className="text-sm">Product Designer</p>
-                      <p className="text-sm">Web Developer</p>
                     </div>
                   </div>
                   <div className="container flex flex-col gap-4">
@@ -123,7 +123,7 @@ export default function Home() {
             {state.openYs ? (
               <span>
                 <a
-                  href="https://yusongshi-dev.netlify.app/"
+                  href=""
                   className="underline underline-offset-4 cursor-alias"
                 >
                   View Live Site
@@ -226,8 +226,8 @@ export default function Home() {
                   <div className="container flex flex-col gap-4">
                     <h5 className="text-sm font-semibold uppercase">role</h5>
                     <div>
+                      <p className="text-sm">Frontend Developer</p>
                       <p className="text-sm">Product Designer</p>
-                      <p className="text-sm">Web Developer</p>
                     </div>
                   </div>
                   <div className="flex flex-col gap-4">

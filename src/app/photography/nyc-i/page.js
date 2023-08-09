@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const slugToFetch = "nyc-i";
@@ -82,6 +82,31 @@ function Page() {
             />
           </div>
         ))}
+      </div>
+      <div className="w-full flex flex-row justify-between p-4 lg:p-8 border-t">
+        <div className="">
+          {" "}
+          <Link
+            href="/photography/death-valley"
+            className="flex flex-col lg:gap-2"
+          >
+            <span className="uppercase font-light text-xs lg:text-sm">
+              Prev
+            </span>
+            <span className="text-lg lg:text-2xl">Death Valley</span>
+          </Link>
+        </div>
+        <div>
+          <Link
+            href="/photography/nyc-ii"
+            className="flex flex-col items-end lg:gap-2"
+          >
+            <span className="uppercase font-light text-xs lg:text-sm">
+              next
+            </span>
+            <span className="text-lg lg:text-2xl">NYC II</span>
+          </Link>
+        </div>
       </div>
     </>
   );

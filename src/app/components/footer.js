@@ -28,9 +28,20 @@ export default function Footer() {
                   )}
                 </button>
               </li>
-              <li>Github</li>
+              <li>
+                <a href="https://github.com/yusongsh" target="_blank">
+                  Github
+                </a>
+              </li>
               <li>Resume</li>
-              <li>Source Code</li>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=d1YBv2mWll0"
+                  target="_blank"
+                >
+                  OnlyFans
+                </a>
+              </li>
             </ul>
           </div>
           <div className="p-3 sm:p-6 flex flex-row sm:border-l items-center justify-center gap-2">

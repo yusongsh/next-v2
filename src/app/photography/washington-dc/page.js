@@ -80,7 +80,18 @@ function App() {
         ))}
       </div>
       <div className="w-full flex flex-row justify-between p-4 lg:p-8 border-t">
-        <div className=""></div>
+        <div className="">
+          {" "}
+          <Link
+            href="/photography/wild-west"
+            className="flex flex-col lg:gap-2"
+          >
+            <span className="uppercase font-light text-xs lg:text-sm">
+              Prev
+            </span>
+            <span className="text-lg lg:text-2xl">Wild West</span>
+          </Link>
+        </div>
         <div>
           <Link
             href="/photography/lincoln-center"
