@@ -36,22 +36,24 @@ export default function Photography() {
           <div className="col-span-1 border-b md:border-r h-[30rem] flex flex-col justify-between">
             <div className="relative w-full h-full hover:bg-black hover:bg-opacity-50 transition ease-in-out duration-300 group">
               <Image
-                src={drone}
+                src={utah}
                 alt="Picture of the basketball fun"
                 fill={true}
                 style={{ objectFit: "contain" }}
                 className="p-10"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className=" text-white font-semibold uppercase text-center">
-                  Archive I
-                </p>
-              </div>
+              <Link href="/photography/wild-west">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
+                  style={{ mixBlendMode: "difference" }}
+                >
+                  <p className=" text-white font-semibold uppercase text-center">
+                    wild west
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="col-span-1 border-b lg:border-r h-[30rem]">
@@ -83,16 +85,18 @@ export default function Photography() {
                 style={{ objectFit: "contain" }}
                 className="p-10"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className="text-white font-semibold uppercase text-center">
-                  Yosemite National Park
-                </p>
-              </div>
+              <Link href="/photography/yosemite">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
+                  style={{ mixBlendMode: "difference" }}
+                >
+                  <p className="text-white font-semibold uppercase text-center">
+                    Yosemite National Park
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="col-span-1 border-b lg:border-r h-[30rem]">
@@ -103,41 +107,22 @@ export default function Photography() {
                 fill={true}
                 style={{ objectFit: "contain" }}
                 className="p-10"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className=" text-white font-semibold uppercase text-center">
-                  Death Valey
-                </p>
-              </div>
+              />{" "}
+              <Link href="/photography/death-valley">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
+                  style={{ mixBlendMode: "difference" }}
+                >
+                  <p className=" text-white font-semibold uppercase text-center">
+                    Death Valey
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="col-span-1 border-b md:border-r h-[30rem]">
-            <div className="relative w-full h-full hover:bg-black hover:bg-opacity-50 transition ease-in-out duration-300 group">
-              <Image
-                src={nycI}
-                alt="Picture of the basketball fun"
-                fill={true}
-                style={{ objectFit: "contain" }}
-                className="p-10"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className=" text-white font-semibold capitalize text-center">
-                  NYC I
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-span-1 border-b h-[30rem]">
             <div className="relative w-full h-full hover:bg-black hover:bg-opacity-50 transition ease-in-out duration-300 group">
               <Image
                 src={nycII}
@@ -146,16 +131,41 @@ export default function Photography() {
                 style={{ objectFit: "contain" }}
                 className="p-10"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className="text-white font-semibold capitalize text-center">
-                  NYC II
-                </p>
-              </div>
+              <Link href="/photography/nyc-i">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
+                  style={{ mixBlendMode: "difference" }}
+                >
+                  <p className=" text-white font-semibold capitalize text-center">
+                    NYC I
+                  </p>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="col-span-1 border-b h-[30rem]">
+            <div className="relative w-full h-full hover:bg-black hover:bg-opacity-50 transition ease-in-out duration-300 group">
+              <Image
+                src={nycI}
+                alt="Picture of the basketball fun"
+                fill={true}
+                style={{ objectFit: "contain" }}
+                className="p-10"
+              />
+              <Link href="/photography/nyc-ii">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
+                  style={{ mixBlendMode: "difference" }}
+                >
+                  <p className="text-white font-semibold capitalize text-center">
+                    NYC II
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="col-span-1 border-b lg:border-b-0 md:border-r h-[30rem]">
@@ -202,22 +212,24 @@ export default function Photography() {
           <div className="col-span-1 h-[30rem] md:border-r lg:border-r-0">
             <div className="relative w-full h-full hover:bg-black hover:bg-opacity-50 transition ease-in-out duration-300 group">
               <Image
-                src={utah}
+                src={drone}
                 alt="Picture of the basketball fun"
                 fill={true}
                 style={{ objectFit: "contain" }}
                 className="p-10"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
-              {/* This is the overlay */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
-                style={{ mixBlendMode: "difference" }}
-              >
-                <p className=" text-white font-semibold uppercase text-center">
-                  horseshoe bend
-                </p>
-              </div>
+              />{" "}
+              <Link href="/photography/archive">
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition ease-in-out duration-300"></div>
+                {/* This is the overlay */}
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white opacity-0 group-hover:opacity-100 transition ease-in-out duration-300"
+                  style={{ mixBlendMode: "difference" }}
+                >
+                  <p className=" text-white font-semibold uppercase text-center">
+                    Archive I
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
