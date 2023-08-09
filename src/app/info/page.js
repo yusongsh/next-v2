@@ -7,8 +7,15 @@ export default function Page() {
       company: "Lushful Aesthetics",
       link: "https://www.linkedin.com/company/lushful-aesthetics/about/",
       title: "Frontend Developer | UI/UX Designer",
-      location: "Remote",
-      duration: "Jun 22 - Present",
+      location: "Remote | NYC",
+      duration: "Jun 22 - Aug 23",
+    },
+    {
+      company: "WWW",
+      link: "",
+      title: "Freelance Frontend Developer",
+      location: "",
+      duration: "May 23 - Present",
     },
     {
       company: "Breef",
@@ -25,16 +32,23 @@ export default function Page() {
       duration: "Oct 22 - Jun 23",
     },
     {
+      company: "General Assembly",
+      link: "https://www.linkedin.com/company/popchew/",
+      title: "Software Engineering Immersive Bootcamp",
+      location: "Online",
+      duration: "Feb 22 - June 22",
+    },
+    {
       company: "Cascade",
       link: "",
       title: "Creative Director",
       location: "San Diego",
-      duration: "May 19 - Jan 21",
+      duration: "May 19 - Aug 21",
     },
     {
       company: "WWW",
       link: "",
-      title: "Freelance Designer",
+      title: "Freelance Product Designer",
       location: "",
       duration: "Jul 18 - Present",
     },
@@ -49,7 +63,11 @@ export default function Page() {
     "NextJS",
     "ContentfulCMS",
     "Github",
+    "Netlify",
+    "Vercel",
     "TailwindCSS",
+    "Material UI",
+    "Node.js",
   ];
 
   const design = [
@@ -59,8 +77,11 @@ export default function Page() {
     "User Research",
     "User Journey",
     "Usability Testing",
+    "Conceptual Design",
     "Prototyping",
     "Wireframing",
+    "Responsive Design",
+    "Mobile Design",
     "Adobe Creative Suite",
   ];
 
@@ -119,6 +140,12 @@ export default function Page() {
             me. Now, with my design background and new coding chops, I&apos;m
             super excited to jump into the world of frontend development. I
             Can&apos;t wait to dive into this new chapter!
+          </p>
+          <br />
+          <p>
+            I&apos;m also a big fan of basketball, cooking, lifting, hiking,
+            wood working and making coffee at home (who doesn&apos;t love a good
+            cup of espresso or a hand-poured Chemex?)
           </p>
         </div>
         <div className="col-span-8 md:col-span-2 border-y md:border-y-0 md:border-l p-10">
