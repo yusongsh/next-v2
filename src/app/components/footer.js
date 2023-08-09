@@ -15,7 +15,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className=" text-sm box-border bg-[#080808] w-screen border-t-[1px] border-[#CCCFCA]">
+      <footer className=" text-sm box-border bg-black w-screen border-t-[1px] border-white">
         <div className="flex flex-col sm:flex-row justify-between sm:items-center">
           <div className="p-3 sm:p-6 border-b sm:border-r sm:border-b-0">
             <ul className="flex flex-row justify-evenly gap-3 uppercase">

@@ -1,8 +1,8 @@
 "use client";
-import Link from "next/link";
+
 import { useState, useEffect } from "react";
 
-const slugToFetch = "washington-dc";
+const slugToFetch = "wild-west";
 
 const query = `
 {
@@ -21,7 +21,7 @@ const query = `
 }
 `;
 
-function App() {
+function Page() {
   const [page, setPage] = useState(null);
 
   useEffect(() => {
@@ -48,7 +48,11 @@ function App() {
   }, []);
 
   if (!page) {
-    return "Loading...";
+    return (
+      <div className="w-full h-screen flex justify-center items-center">
+        <span>Loading...</span>
+      </div>
+    );
   }
 
   const images = page.photoGalleryCollection.items[0].imagesCollection.items;
@@ -79,22 +83,8 @@ function App() {
           </div>
         ))}
       </div>
-      <div className="w-full flex flex-row justify-between p-4 lg:p-8 border-t">
-        <div className=""></div>
-        <div>
-          <Link
-            href="/photography/lincoln-center"
-            className="flex flex-col items-end lg:gap-2"
-          >
-            <span className="uppercase font-light text-xs lg:text-sm">
-              next
-            </span>
-            <span className="text-lg lg:text-2xl">Summer For The City</span>
-          </Link>
-        </div>
-      </div>
     </>
   );
 }
 
-export default App;
+export default Page;

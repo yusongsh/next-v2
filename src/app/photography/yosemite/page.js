@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const slugToFetch = "washington-dc";
+const slugToFetch = "yosemite";
 
 const query = `
 {
