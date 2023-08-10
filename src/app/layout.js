@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 const playfair = Playfair({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Yusong Shi - Web Developer",
+  title: "Yusong Shi - Frontend Developer",
   description:
     "A web developer and digital product designer with a focus on user centered experience develop. Rooted in NYC, serving clients across the country. Actively pursuing a new career direction. ",
 };
