@@ -2,6 +2,7 @@
 import { useState } from "react";
 import profile from "./images/crypto.jpg";
 import basket from "./images/NBA 75.gif";
+import mapFun from "./images/mapfun.gif";
 import codr from "./images/Codr..png";
 import lushful from "./images/lushful-asset.jpg";
 import myportfolio from "./images/myportfolio.jpg";
@@ -21,6 +22,7 @@ export default function Home() {
     openCas: false,
     openKura: false,
     openBike: false,
+    openWorldFun: false,
   };
 
   const [state, setState] = useState(initialState);
@@ -445,7 +447,92 @@ export default function Home() {
           </div>
         </div>
         {/* project 6 */}
-        <div className="col-span-1 h-[30rem] flex border-b flex-col justify-between"></div>
+        <div className="col-span-1 h-[30rem] flex border-b flex-col justify-between">
+          <div className="relative w-full h-full">
+            {state.openWorldFun ? (
+              <a
+                onClick={() => toggle("openWorldFun")}
+                className="cursor-pointer"
+              >
+                <div className="p-6 flex flex-col gap-6">
+                  <div className="flex flex-col gap-4">
+                    <h5 className="text-sm font-semibold uppercase">About</h5>
+                    <p className="text-sm">
+                      COUNTRYFUN.WORLD is more than just a mapping
+                      tool.It&apos;s a voyage into the diverse and expansive
+                      world of nations. Built with travelers, researchers,
+                      students, and curious minds in mind. Did you know there
+                      are 195 countries in the world today?
+                    </p>
+                  </div>
+                  <div className="container flex flex-col gap-4">
+                    <h5 className="text-sm font-semibold uppercase">Role</h5>
+                    <div>
+                      <p className="text-sm">Frontend Developer</p>
+                      <p className="text-sm">Web Designer</p>
+                    </div>
+                  </div>
+                  <div className="container flex flex-col gap-4">
+                    <ul className="text-sm flex flex-row flex-wrap gap-x-3 gap-y-2">
+                      <li className="px-3 py-1 border rounded-full">NextJS</li>
+                      <li className="px-3 py-1 border rounded-full">
+                        TailwindCSS
+                      </li>
+                      <li className="px-3 py-1 border rounded-full">Vercel</li>
+                      <li className="px-3 py-1 border rounded-full">Figma</li>
+                    </ul>
+                  </div>
+                  {/* <div className="flex flex-col gap-4">
+                    <h5 className="text-sm font-semibold uppercase">Github</h5>
+                    <p className="text-sm underline underline-offset-4">
+                      <a
+                        href="https://github.com/yusongsh/Project-2"
+                        target="_blank"
+                      >
+                        source code
+                      </a>
+                    </p>
+                  </div> */}
+                </div>
+              </a>
+            ) : (
+              <button
+                onClick={() => toggle("openWorldFun")}
+                className="cursor-pointer"
+              >
+                <Image
+                  src={mapFun}
+                  // blurDataURL={basketholder}
+                  alt="Picture of the basketball fun"
+                  fill={true}
+                  style={{ objectFit: "contain" }}
+                  // placeholder="blur"
+                  className="p-10"
+                />{" "}
+              </button>
+            )}
+          </div>
+
+          <div
+            className={
+              state.openWorldFun
+                ? "border-t py-4 text-center bg-[#445F69]/50"
+                : "border-t py-4 text-center"
+            }
+          >
+            {state.openWorldFun ? (
+              <a
+                href="https://www.countryfun.world/"
+                target="_blank"
+                className=" underline underline-offset-4 cursor-alias"
+              >
+                <span> View Live Site</span>{" "}
+              </a>
+            ) : (
+              <span>countryfun.world</span>
+            )}
+          </div>
+        </div>
         {/* project 7*/}
         <div className="col-span-1 h-[30rem] border-b lg:border-b-0 md:border-r flex flex-col justify-between">
           <div className="relative w-full h-full">
