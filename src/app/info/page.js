@@ -28,8 +28,8 @@ export default function Page() {
       company: "Popchew",
       link: "https://www.linkedin.com/company/popchew/",
       title: "Senior Product Designer",
-      location: "NYC",
-      duration: "Oct 22 - Jun 23",
+      location: "NYC | Contractor",
+      duration: "Oct 22 - Feb 23",
     },
     {
       company: "General Assembly",
@@ -41,7 +41,7 @@ export default function Page() {
     {
       company: "Cascade",
       link: "",
-      title: "Creative Director",
+      title: "Creative Director, Web Developer",
       location: "San Diego",
       duration: "May 19 - Aug 21",
     },
@@ -117,29 +117,29 @@ export default function Page() {
       <div className="grid grid-cols-8 lg:min-h-[48rem]">
         <div className="col-span-8 md:col-span-4 p-10 text-lg">
           <p className="">
-            Hi, I&apos;m Yusong and I&apos;m a product designer, a web
-            developer, and photographer. I love working on the web and I&apos;m
-            passionate about blending good design with smooth functionality.
+            Hi, I&apos;m Yusong and I&apos;m a software engineer, a photographer
+            and formerly a product designer. I love working on the web and
+            blending good design with smooth functionality.
           </p>
           <br />
           <p>
-            I love to experiment with the web as a creative mediumand and
-            I&apos;m perpetually tinkering with it. Every 6 months, my portfolio
+            I like to experiment with the web as a creative medium, and I&apos;m
+            perpetually tinkering with it. Every 6 months, my portfolio
             undergoes a transformation, reflecting my latest experiments and
-            learnings. Right now, I&apos;m delving into SwiftUI. Who knows?
+            learnings. Right now, I&apos;m delving into React Native. Who knows?
             Perhaps I&apos;ll soon launch a mobile app to showcase my journey
             and work — I do have a quirky side, after all.
           </p>
           <br />
           <p className="">
-            I&apos;ve been in the product design game for a good 3-5 years,
-            creating some cool user-focused designs. But along the way, I felt a
-            stronger pull towards coding and making those designs come alive on
-            the screen. Coding actually makes me happy and calm. So, I dived
-            into a software engineer bootcamp last year, and it lit a fire in
-            me. Now, with my design background and new coding chops, I&apos;m
-            super excited to jump into the world of frontend development. I
-            Can&apos;t wait to dive into this new chapter!
+            I&apos;ve been in the product design game for 5 years, creating some
+            cool user-centered designs. But along the way, I felt a stronger
+            pull towards coding and making those designs come alive on the
+            screen. Coding makes me happy and calm. So, I dived into a software
+            engineering bootcamp last year, and it lit a fire in me. Now, with
+            my design background and new coding chops, I&apos;m super excited to
+            jump into the world of software engineering, especially frontend
+            development. I can&apos;t wait to dive into this new chapter!
           </p>
           <br />
           <p>
