@@ -47,9 +47,9 @@ export default function Home() {
     <div>
       <div className="border-b">
         <h3 className="px-3 py-8 lg:py-12 2xl:py-16 sm:px-6 text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl uppercase text-shadow-custom">
-          A web developer and digital product designer with a focus on user
-          centered experience develop. Rooted in NYC, serving clients across the
-          country. Actively pursuing a new career direction.
+          A Frontend Engineer and Digital Product Designer specializing in
+          user-centered experience design and development. Based in NYC and
+          serving clients nationwide. Actively seeking a fresh career direction.
         </h3>
       </div>
       <div className="border-b">
